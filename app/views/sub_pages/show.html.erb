@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Page:</b>
+  <%= @sub_page.page_id %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%= @sub_page.title %>
+</p>
+
+<p>
+  <b>Content:</b>
+  <%= @sub_page.content %>
+</p>
+
+<p>
+  <b>Browser title:</b>
+  <%= @sub_page.browser_title %>
+</p>
+
+<p>
+  <b>Meta keywords:</b>
+  <%= @sub_page.meta_keywords %>
+</p>
+
+<p>
+  <b>Meta description:</b>
+  <%= @sub_page.meta_description %>
+</p>
+
+
+<%= link_to 'Edit', edit_sub_page_path(@sub_page) %> |
+<%= link_to 'Back', sub_pages_path %>

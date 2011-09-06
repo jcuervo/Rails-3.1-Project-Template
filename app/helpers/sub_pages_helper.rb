@@ -1,0 +1,2 @@
+module SubPagesHelper
+end
